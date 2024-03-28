@@ -20,7 +20,7 @@ const Skills = () => {
                 <div className="  w-[50%] border-t-2 border-[#C778DD] ml-4"></div>
             </div>
             <p className=' text-center'>Tecnologías con las que desarrollo habitualmente</p>
-            <section className='grid grid-cols-4 text-7xl gap-4 py-12'>
+            <section className='grid grid-cols-4   max-sm:grid-cols-3 text-7xl gap-4 py-12'>
                 <IoLogoJavascript className='  mx-auto text-[#fbff00]' />
                 <FaHtml5 className='  mx-auto text-[#fc490b]' />
                 <FaCss3Alt className='  mx-auto  text-[#2196f3]' />
