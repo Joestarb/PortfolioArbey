@@ -9,15 +9,15 @@ import python from '../assets/python.png'
 
 const Skills = () => {
     return (
-        <div>
+        <div className=' relative block' id='skills'>
+
+
             <div className="flex items-center text-3xl justify-center">
                 <div className="  w-[50%] border-t-2 border-[#C778DD] ml-4"></div>
-
                 <span className="text-[#C778DD] font-bold ml-3" style={{ verticalAlign: 'middle' }}>#
                 </span>
                 <p className=' poppins-regular'>Skills</p>
                 <div className="  w-[50%] border-t-2 border-[#C778DD] ml-4"></div>
-
             </div>
             <p className=' text-center'>Tecnologías con las que desarrollo habitualmente</p>
             <section className='grid grid-cols-4 text-7xl gap-4 py-12'>

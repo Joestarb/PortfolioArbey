@@ -2,8 +2,11 @@ import React from 'react'
 
 const AboutMe = () => {
     return (
-        <div>
+        <div id='sobre-mi'>
+            <div>
+            </div>
             <div className="flex items-center text-3xl justify-center">
+                
             <div className="  w-[40%] border-t-2 border-[#C778DD] ml-4"></div>
 
                 <span className="text-[#C778DD] font-bold ml-3" style={{ verticalAlign: 'middle' }}>#
@@ -12,7 +15,7 @@ const AboutMe = () => {
                 <div className="  w-[40%] border-t-2 border-[#C778DD] ml-4"></div>
 
             </div>
-            <div  className=' py-12'>
+            <div  className=' py-12  mx-9'>
                 <p>Hola!</p>
 
                     <p>Soy estudiante de Tecnologías de la Información y Comunicación (TIC) con enfoque en Desarrollo de Software Multiplataforma.</p>
