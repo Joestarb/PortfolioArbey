@@ -1,16 +1,18 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
 import "./index.css";
+
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Proyects from "./components/Proyects";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 function App() {
 
 
   return (
-    <div className=" -z-10 min-h-screen poppins-regular  bg-[#282C33] text-white">
+    <div className=" -z-10 min-h-screen poppins-regular bg-gray-800  text-white">
       <div className=" flex-1 ">
 
         <Navbar />
@@ -24,6 +26,8 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
+
     </div>
   );
 }

@@ -23,13 +23,13 @@ const Navbar = () => {
     };
 
     return (
-        <div className='fixed w-full z-50 bg-[#282C33]'>
+        <div className='fixed w-full z-50 bg-gray-800 '>
 
             <div className='border-b border-gray-400 sm:flex justify-between items-center'>
 
-                <div className='z-50 max-sm:hidden py-3 px-10 font-semibold'>Arbey Dzib</div>
+                <a href='header' onClick={(event) => handleNavLinkClick(event, 'header')} className='z-50 max-sm:hidden py-3 px-10 font-semibold'>Arbey Dzib</a>
                 <div className='flex gap-4 z-50 py-3 px-5 justify-between'>
-                    <p className=' sm:hidden'>Arbey Dzib</p>
+                    <a href='header' className=' sm:hidden' onClick={(event) => handleNavLinkClick(event, 'header')}>Arbey Dzib</a>
                     {/* Botón de menú de hamburguesa para móviles */}
                     <button className='block sm:hidden' onClick={toggleMenu}>
                         <svg className='h-6 w-6 fill-current' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
